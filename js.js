@@ -64,7 +64,7 @@ function linkify(input_text,user_name) {
 	* then a little phone icon is added as the linked object on the page. 
 	*
 	*/
-	replaced_text = input_text.replace(replace_pattern, '($1) $2-$3 <a href="http://yourdomain.com/make_call.php?user='+user_name+'&num=$1$2$3" onclick="return makeCall(\'http://yourdomain.com/make_call.php?user='+user_name+'&num=$1$2$3\')"><img src="phone_icon_grey_15_15.png" border="0" /></a>');
+	replaced_text = input_text.replace(replace_pattern, '($1) $2-$3 <a href="http://yourdomain.com/make_call.php?user='+user_name+'&num=$1$2$3" onclick="return makeCall(\'http://yourdomain.com/make_call.php?user='+user_name+'&num=$1$2$3\')"><img src="	phone_icon_grey_15_15.png" border="0" /></a>');
 	
 	return replaced_text;
 	
